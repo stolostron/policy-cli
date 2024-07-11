@@ -1,1 +1,2 @@
-# grc-cli
+# `policytools` CLI
+
