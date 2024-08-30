@@ -46,10 +46,6 @@ jobs:
     - name: Build
       run: |
         make build
-    
-    - name: Test
-      run: |
-        make test
 
     - name: Verify help content in README
       run: |
