@@ -90,14 +90,14 @@ lint:
 ############################################################
 # test section
 ############################################################
-
-.PHONY: test
-test: envtest
-	KUBEBUILDER_ASSETS="$(shell $(ENVTEST) use $(ENVTEST_K8S_VERSION) -p path)" go test $(TESTARGS) ./...
-
-.PHONY: test-coverage
-test-coverage: TESTARGS = -v -json -cover -covermode=atomic -coverprofile=coverage.out
-test-coverage: test
-
+CLUSTER_NAME := policycli
 .PHONY: gosec-scan
 gosec-scan:
+
+.PHONY: test
+test: kind-create-cluster
+	./test/test.sh --test-templateresolver
+
+.PHONY: validate-readme
+validate-readme:
+	./test/test.sh --validate-readme

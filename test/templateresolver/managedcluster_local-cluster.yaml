@@ -1,0 +1,9 @@
+apiVersion: cluster.open-cluster-management.io/v1
+kind: ManagedCluster
+metadata:
+  labels:
+    cloud: RedHat
+    local-cluster: "true"
+    name: local-cluster
+    vendor: OpenShift
+  name: local-cluster
