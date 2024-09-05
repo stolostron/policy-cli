@@ -7,7 +7,7 @@ import (
 	"github.com/stolostron/policy-cli/internal"
 )
 
-// acmCmd represents the base command when called without any subcommands
+// policyCmd represents the base command when called without any subcommands
 type Cmd struct{}
 
 func (a Cmd) GetCmd() *cobra.Command {
@@ -18,7 +18,10 @@ func (a Cmd) GetCmd() *cobra.Command {
 
 This toolset helps you manage the policies in multicluster Kubernetes
 environments managed by Advanced Cluster Management.`,
+		Version: internal.GetVersion(),
 	}
+
+	policyCmd.SetVersionTemplate(`{{ printf "%s\n" .Version }}`)
 
 	// Load subcommands
 	internal.LoadSubCmds(
