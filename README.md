@@ -25,7 +25,8 @@ Additional Commands:
   help              Help about any command
 
 Flags:
-  -h, --help   help for policytools
+  -h, --help      help for policytools
+  -v, --version   version for policytools
 
 Use "policytools [command] --help" for more information about a command.
 ```
