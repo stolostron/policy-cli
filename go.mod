@@ -1,10 +1,12 @@
 module github.com/stolostron/policy-cli
 
-go 1.21
+go 1.22
+
+toolchain go1.22.0
 
 require (
 	github.com/spf13/cobra v1.8.1
-	github.com/stolostron/go-template-utils/v6 v6.1.2-0.20240904121841-f063c7e6a9b6
+	github.com/stolostron/go-template-utils/v6 v6.2.0
 )
 
 require (
