@@ -55,7 +55,7 @@ build-all:
 	# Building binaries with output to $(subst $(PWD),.,$(BUILD_DIR))
 	@for binary in $(BINARY_DIR); do \
 		echo "Building $$(basename $${binary}) ...";\
-		go build -ldflags="$(GO_LDFLAGS)" -o $(BUILD_DIR)/$$(basename $${binary}) $${binary}; \
+		go build -mod=readonly -ldflags="$(GO_LDFLAGS)" -o $(BUILD_DIR)/$$(basename $${binary}) $${binary}; \
 	done
 
 .PHONY: build
