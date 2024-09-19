@@ -55,7 +55,7 @@ build-all:
 	# Building binaries with output to $(subst $(PWD),.,$(BUILD_DIR))
 	@for binary in $(BINARY_DIR); do \
 		echo "Building $$(basename $${binary}) ...";\
-		go build -mod=readonly -ldflags="$(GO_LDFLAGS)" -o $(BUILD_DIR)/$$(basename $${binary}) $${binary}; \
+		go build -ldflags="$(GO_LDFLAGS)" -o $(BUILD_DIR)/$$(basename $${binary}) $${binary}; \
 	done
 
 .PHONY: build
@@ -70,7 +70,7 @@ build-release:
 	fi
 	@for OS in linux darwin windows; do for ARCH in amd64 arm64; do \
 			echo "# Building $${OS}-$${ARCH}-$(BINARY_NAME)"; \
-			GOOS=$${OS} GOARCH=$${ARCH} CGO_ENABLED=0 go build -ldflags="$(GO_LDFLAGS)" -o $(BUILD_DIR)/$${OS}-$${ARCH}-$(BINARY_NAME) ./cmd/$(BINARY_NAME); \
+			GOOS=$${OS} GOARCH=$${ARCH} CGO_ENABLED=0 go build -mod=readonly -ldflags="$(GO_LDFLAGS)" -o $(BUILD_DIR)/$${OS}-$${ARCH}-$(BINARY_NAME) ./cmd/$(BINARY_NAME); \
 		done; done
 	# Adding .exe extension to Windows binaries
 	@for FILE in $$(ls -1 $(BUILD_DIR)/windows-* | grep -v ".exe$$"); do \
