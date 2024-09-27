@@ -1,0 +1,40 @@
+name: Dependencies
+
+on:
+  schedule:
+    # every Monday at midnight
+    - cron: 0 0 * * 1
+
+jobs:
+  dependencies:
+    runs-on: ubuntu-latest
+    name: Check
+    steps:
+      - name: Checkout policy-cli Repo
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+
+      - name: Check for package upgrades
+        run: |
+          packages=$(
+            go list -m -f '{{if not (or .Indirect .Main)}}{{.Path}}{{end}}' all |
+              grep "stolostron\|open-cluster-management.io"
+            )
+          for pkg in ${packages}; do
+            go get ${pkg}@main
+          done
+          git diff --exit-code || echo "OPEN_PR=true" >> ${GITHUB_ENV}
+
+      - name: Open update PR
+        if: ${{ env.OPEN_PR == 'true' }}
+        run: |
+          git checkout -b gh-action-pkg-update
+          go mod tidy
+          git commit -S -s -am "Update subcommand packages"
+          git push --delete origin gh-action-pkg-update || true
+          git push origin gh-action-pkg-update
+          gh pr create --fill --head gh-action-pkg-update
