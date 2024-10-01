@@ -3,6 +3,7 @@ package policytools
 import (
 	"github.com/spf13/cobra"
 	templateresolver "github.com/stolostron/go-template-utils/v6/cmd/template-resolver/utils"
+	"open-cluster-management.io/config-policy-controller/cmd/dryrun"
 
 	"github.com/stolostron/policy-cli/internal"
 )
@@ -29,6 +30,7 @@ environments managed by Advanced Cluster Management.`,
 		policyCmd, // policytools
 		// Subcommands
 		&templateresolver.TemplateResolver{}, // template-resolver
+		&dryrun.DryRunner{},                  // dryrun
 	)
 
 	return policyCmd
