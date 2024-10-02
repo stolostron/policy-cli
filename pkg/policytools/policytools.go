@@ -14,11 +14,11 @@ type Cmd struct{}
 func (a Cmd) GetCmd() *cobra.Command {
 	policyCmd := &cobra.Command{
 		Use:   "policytools",
-		Short: "ACM Policy Toolset",
-		Long: `ACM Policy Toolset
+		Short: "Red Hat Advanced Cluster Management Policy Toolset",
+		Long: `Red Hat Advanced Cluster Management Policy Toolset
 
 This toolset helps you manage the policies in multicluster Kubernetes
-environments managed by Advanced Cluster Management.`,
+environments that are managed by Red Hat Advanced Cluster Management.`,
 		Version: internal.GetVersion(),
 	}
 
