@@ -32,7 +32,7 @@ func LoadSubCmds(parentCmd *cobra.Command, subCmd ...PolicyCmd) {
 
 		// Set a default group if none is given
 		if subCommand.GroupID == "" {
-			subCommand.GroupID = "Policy Tools"
+			subCommand.GroupID = "Policy Tools Commands:"
 		}
 
 		// Add group if they're missing (this must be complete before adding the subcommand)

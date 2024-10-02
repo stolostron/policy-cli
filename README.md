@@ -9,15 +9,15 @@ environments managed by Red Hat Advanced Cluster Management. They're made availa
 <!--BEGINHELP-->
 
 ```
-ACM Policy Toolset
+Red Hat Advanced Cluster Management Policy Toolset
 
 This toolset helps you manage the policies in multicluster Kubernetes
-environments managed by Advanced Cluster Management.
+environments that are managed by Red Hat Advanced Cluster Management.
 
 Usage:
   policytools [command]
 
-Policy Tools
+Policy Tools Commands:
   dryrun            (Dev Preview feature) Locally execute a ConfigurationPolicy
   template-resolver Locally resolve Policy templates
 
