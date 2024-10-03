@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"open-cluster-management.io/config-policy-controller/cmd/dryrun"
+	"open-cluster-management.io/config-policy-controller/pkg/dryrun"
 )
 
 func main() {
