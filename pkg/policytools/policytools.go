@@ -3,7 +3,7 @@ package policytools
 import (
 	"github.com/spf13/cobra"
 	templateresolver "github.com/stolostron/go-template-utils/v6/cmd/template-resolver/utils"
-	"open-cluster-management.io/config-policy-controller/cmd/dryrun"
+	"open-cluster-management.io/config-policy-controller/pkg/dryrun"
 
 	"github.com/stolostron/policy-cli/internal"
 )
