@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout policy-cli Repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Go
         uses: actions/setup-go@v5
@@ -27,14 +29,20 @@ jobs:
           for pkg in ${packages}; do
             go get ${pkg}@main
           done
+          go mod tidy
           git diff --exit-code || echo "OPEN_PR=true" >> ${GITHUB_ENV}
 
       - name: Open update PR
         if: ${{ env.OPEN_PR == 'true' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          # Setup user
+          git config user.name "acm-grc-security[bot]"
+          git config user.email "acm-grc-security[bot]@users.noreply.github.com"
+
           git checkout -b gh-action-pkg-update
-          go mod tidy
-          git commit -S -s -am "Update subcommand packages"
+          git commit -s -am "Update subcommand packages"
           git push --delete origin gh-action-pkg-update || true
           git push origin gh-action-pkg-update
-          gh pr create --fill --head gh-action-pkg-update
+          gh pr create --fill
