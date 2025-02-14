@@ -4,7 +4,7 @@ go 1.22.0
 
 require (
 	github.com/spf13/cobra v1.8.1
-	github.com/stolostron/go-template-utils/v6 v6.3.1
+	github.com/stolostron/go-template-utils/v6 v6.3.2-0.20250214164727-b2c738d1f51c
 	open-cluster-management.io/config-policy-controller v0.15.1-0.20241025133201-e35e53ada9ec
 )
 
