@@ -5,7 +5,7 @@ go 1.22.0
 require (
 	github.com/spf13/cobra v1.8.1
 	github.com/stolostron/go-template-utils/v6 v6.5.0
-	open-cluster-management.io/config-policy-controller v0.15.1-0.20250228184437-6fb38cebb908
+	open-cluster-management.io/config-policy-controller v0.15.1-0.20250305172506-f2e403f579e6
 )
 
 require (
@@ -91,6 +91,7 @@ require (
 	k8s.io/kube-openapi v0.0.0-20240521193020-835d969ad83a // indirect
 	k8s.io/kubectl v0.28.10 // indirect
 	k8s.io/utils v0.0.0-20240711033017-18e509b52bc8 // indirect
+	open-cluster-management.io/governance-policy-propagator v0.15.0 // indirect
 	sigs.k8s.io/controller-runtime v0.19.0 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
 	sigs.k8s.io/kustomize/api v0.17.2 // indirect
