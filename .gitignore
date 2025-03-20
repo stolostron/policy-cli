@@ -19,3 +19,5 @@ go.work.sum
 build/_output/
 bin/
 gosec.json
+
+.go/
