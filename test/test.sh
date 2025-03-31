@@ -15,7 +15,7 @@ testDiff() {
 
 validate-readme() {
   echo '# Validating content difference between README.md and `policytools --help`'
-  updated_readme="$(printf '<!--BEGINHELP-->\n\n```\n%s\n```\n\n<!--ENDHELP-->\n' "$(${TEST_DIR}/../build/_output/policytools)")"
+  updated_readme="$(printf '<!--BEGINHELP-->\n\n```text\n%s\n```\n\n<!--ENDHELP-->\n' "$(${TEST_DIR}/../build/_output/policytools)")"
   current_readme="$(awk '/<!--BEGINHELP-->/,/<!--ENDHELP-->/' README.md)"
   testDiff "${updated_readme}" "${current_readme}"
 }
