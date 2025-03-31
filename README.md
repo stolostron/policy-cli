@@ -4,11 +4,11 @@ The `policytools` CLI is a toolset that helps you manage policies in the multicl
 environments managed by Red Hat Advanced Cluster Management. They're made available through the
 [`acm-cli`](https://github.com/stolostron/acm-cli) repository.
 
-# Usage
+## Usage
 
 <!--BEGINHELP-->
 
-```
+```text
 Red Hat Advanced Cluster Management Policy Toolset
 
 This toolset helps you manage the policies in multicluster Kubernetes
@@ -62,11 +62,13 @@ oc policytools
 
 ### Using Go
 
-Replace `main` with a `release-*` branch to build a particular version:
+```bash
+go install github.com/stolostron/policy-cli/cmd/policytools@latest
+```
 
-```
-go install github.com/stolostron/policy-cli/cmd/policytools@main
-```
+**NOTE:** To build a particular release, clone this repository, check out the `release-*` branch,
+and run `go install ./cmd/policytools`. This is necessary because previous releases typically have a
+`replace` statement in the `go.mod`.
 
 ### Using Make targets
 

@@ -6,14 +6,35 @@ on:
     - cron: 0 0 * * 1
 
 jobs:
-  dependencies:
+  setup:
+    name: Fetch versions
     runs-on: ubuntu-latest
-    name: Check
+    outputs:
+      versionMatrix: ${{ steps.fetchVersions.outputs.versions }}
+    steps:
+      - id: fetchVersions
+        run: |
+          versions=$(
+            echo "main"
+            curl -s https://raw.githubusercontent.com/stolostron/governance-policy-framework/refs/heads/main/CURRENT_SUPPORTED_VERSIONS | sed 's/^/release-/g'
+          )
+          echo "Found versions: "${versions}
+          versions_json="{\"version\":[\"${versions//[[:space:]]/\",\"}\"]}"
+          echo "Created JSON: ${versions_json}"
+          echo "versions=${versions_json}" >> $GITHUB_OUTPUT
+
+  dependencies:
+    name: Update
+    runs-on: ubuntu-latest
+    needs: setup
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJson(needs.setup.outputs.versionMatrix) }}
     steps:
       - name: Checkout policy-cli Repo
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          ref: ${{ matrix.version }}
 
       - name: Set up Go
         uses: actions/setup-go@v5
@@ -22,13 +43,16 @@ jobs:
 
       - name: Check for package upgrades
         run: |
-          packages=$(
-            go list -m -f '{{if not (or .Indirect .Main)}}{{.Path}}{{end}}' all |
-              grep "stolostron\|open-cluster-management.io"
-            )
-          for pkg in ${packages}; do
-            go get ${pkg}@main
-          done
+          # Go Template Utils
+          go get $(awk '/github.com\/stolostron\/go-template-utils/ {print $1}' go.mod)@${{ matrix.version }}
+
+          # ConfigurationPolicy Controller
+          if [[ ${{ matrix.version }} == "main" ]]; then
+            go get open-cluster-management.io/config-policy-controller@${{ matrix.version }}
+          else
+            go mod edit -replace open-cluster-management.io/config-policy-controller=github.com/stolostron/config-policy-controller@${{ matrix.version }}
+          fi
+
           go mod tidy
           git diff --exit-code || echo "OPEN_PR=true" >> ${GITHUB_ENV}
 
@@ -41,8 +65,10 @@ jobs:
           git config user.name "acm-grc-security[bot]"
           git config user.email "acm-grc-security[bot]@users.noreply.github.com"
 
-          git checkout -b gh-action-pkg-update
-          git commit -s -am "Update subcommand packages"
-          git push --delete origin gh-action-pkg-update || true
-          git push origin gh-action-pkg-update
+          branch=gh-action-pkg-update-${{ matrix.version }}
+
+          git checkout -b ${branch}
+          git commit -s -am "[${{ matrix.version }}] Update subcommand packages"
+          git push --delete origin ${branch} || true
+          git push origin ${branch}
           gh pr create --fill
