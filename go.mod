@@ -4,7 +4,7 @@ go 1.23.0
 
 require (
 	github.com/spf13/cobra v1.8.1
-	github.com/stolostron/go-template-utils/v6 v6.5.0
+	github.com/stolostron/go-template-utils/v6 v6.5.1-0.20250408133356-7d68c70f02ef
 	open-cluster-management.io/config-policy-controller v0.16.1-0.20250326145550-30811e4c1266
 )
 
@@ -99,3 +99,5 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.1 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
 )
+
+replace open-cluster-management.io/config-policy-controller => github.com/stolostron/config-policy-controller v0.0.0-20250409182005-5aa62b10d43d
