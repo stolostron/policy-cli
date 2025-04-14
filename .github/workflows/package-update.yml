@@ -71,4 +71,4 @@ jobs:
           git commit -s -am "[${{ matrix.version }}] Update subcommand packages"
           git push --delete origin ${branch} || true
           git push origin ${branch}
-          gh pr create --fill
+          gh pr create --fill --base ${{ matrix.version }}
