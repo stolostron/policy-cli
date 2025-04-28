@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	templateresolver "github.com/stolostron/go-template-utils/v6/cmd/template-resolver/utils"
+	templateresolver "github.com/stolostron/go-template-utils/v7/cmd/template-resolver/utils"
 )
 
 func main() {

@@ -4,7 +4,7 @@ go 1.23.0
 
 require (
 	github.com/spf13/cobra v1.8.1
-	github.com/stolostron/go-template-utils/v6 v6.5.1-0.20250418163327-d1c7656b9423
+	github.com/stolostron/go-template-utils/v7 v7.0.0
 	open-cluster-management.io/config-policy-controller v0.16.1-0.20250423212433-c506882b3e9d
 )
 
@@ -59,7 +59,6 @@ require (
 	github.com/spf13/cast v1.6.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/stolostron/go-log-utils v0.1.2 // indirect
-	github.com/stolostron/go-template-utils/v7 v7.0.0 // indirect
 	github.com/stolostron/kubernetes-dependency-watches v0.10.1 // indirect
 	github.com/x448/float16 v0.8.4 // indirect
 	github.com/xlab/treeprint v1.2.0 // indirect
