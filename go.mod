@@ -4,8 +4,8 @@ go 1.23.0
 
 require (
 	github.com/spf13/cobra v1.8.1
-	github.com/stolostron/go-template-utils/v7 v7.0.0
-	open-cluster-management.io/config-policy-controller v0.16.1-0.20250423212433-c506882b3e9d
+	github.com/stolostron/go-template-utils/v7 v7.0.1
+	open-cluster-management.io/config-policy-controller v0.16.1-0.20250430195859-1e9d9ed5f69d
 )
 
 require (
@@ -18,7 +18,7 @@ require (
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/emicklei/go-restful/v3 v3.12.0 // indirect
 	github.com/evanphx/json-patch/v5 v5.9.0 // indirect
-	github.com/exponent-io/jsonpath v0.0.0-20151013193312-d6023ce2651d // indirect
+	github.com/exponent-io/jsonpath v0.0.0-20210407135951-1de76d718b3f // indirect
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
 	github.com/fxamacker/cbor/v2 v2.7.0 // indirect
 	github.com/go-errors/errors v1.4.2 // indirect
@@ -84,14 +84,14 @@ require (
 	k8s.io/api v0.31.1 // indirect
 	k8s.io/apiextensions-apiserver v0.31.0 // indirect
 	k8s.io/apimachinery v0.31.1 // indirect
-	k8s.io/cli-runtime v0.28.10 // indirect
+	k8s.io/cli-runtime v0.29.15 // indirect
 	k8s.io/client-go v0.31.0 // indirect
 	k8s.io/klog v1.0.0 // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20240521193020-835d969ad83a // indirect
-	k8s.io/kubectl v0.28.10 // indirect
+	k8s.io/kubectl v0.29.15 // indirect
 	k8s.io/utils v0.0.0-20240711033017-18e509b52bc8 // indirect
-	open-cluster-management.io/governance-policy-propagator v0.15.0 // indirect
+	open-cluster-management.io/governance-policy-propagator v0.16.0 // indirect
 	sigs.k8s.io/controller-runtime v0.19.0 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
 	sigs.k8s.io/kustomize/api v0.17.2 // indirect
