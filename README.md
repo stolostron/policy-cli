@@ -18,7 +18,7 @@ Usage:
   policytools [command]
 
 Policy Tools Commands:
-  dryrun            (Dev Preview feature) Locally execute a ConfigurationPolicy
+  dryrun            Locally execute a ConfigurationPolicy
   template-resolver Locally resolve Policy templates
 
 Additional Commands:
