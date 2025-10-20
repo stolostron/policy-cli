@@ -2,8 +2,8 @@ name: Dependencies
 
 on:
   schedule:
-    # every Monday at midnight
-    - cron: 0 0 * * 1
+    # every Tuesday at midnight
+    - cron: 0 0 * * 2
 
 jobs:
   setup:
@@ -44,7 +44,7 @@ jobs:
       - name: Check for package upgrades
         run: |
           # Go Template Utils
-          go get $(awk '/github.com\/stolostron\/go-template-utils/ {print $1}' go.mod)@${{ matrix.version }}
+          go get $(awk '/github.com\/stolostron\/go-template-utils/ {print $1}' go.mod | head -n 1)@${{ matrix.version }}
 
           # ConfigurationPolicy Controller
           if [[ ${{ matrix.version }} == "main" ]]; then
