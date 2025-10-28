@@ -132,8 +132,8 @@ github.com/spf13/cobra v1.8.1/go.mod h1:wHxEcudfqmLYa8iTfL+OuZPbBZkmvliBWKIezN3k
 github.com/spf13/pflag v1.0.5/go.mod h1:McXfInJRrz4CZXVZOBLb0bTZqETkiAhM9Iw0y3An2Bg=
 github.com/spf13/pflag v1.0.6 h1:jFzHGLGAlb3ruxLB8MhbI6A8+AQX/2eW4qeyNZXNp2o=
 github.com/spf13/pflag v1.0.6/go.mod h1:McXfInJRrz4CZXVZOBLb0bTZqETkiAhM9Iw0y3An2Bg=
-github.com/stolostron/config-policy-controller v0.0.0-20250922191125-26bfaa56d424 h1:HbEdXU5v2LupmteVQt8tHOclYI/iUqu9aFcm7ggOlJ8=
-github.com/stolostron/config-policy-controller v0.0.0-20250922191125-26bfaa56d424/go.mod h1:Vxg5FzyZA4uVo7P+fLUIlwQryt91OhzXScJClavvJOc=
+github.com/stolostron/config-policy-controller v0.0.0-20251017203552-e0d973d67a4e h1:tFg0R/gMNZSpKUO8Ab2uSW1MgTXOkHQapVVXKKQFiSE=
+github.com/stolostron/config-policy-controller v0.0.0-20251017203552-e0d973d67a4e/go.mod h1:Vxg5FzyZA4uVo7P+fLUIlwQryt91OhzXScJClavvJOc=
 github.com/stolostron/go-log-utils v0.1.2 h1:7l1aJWvBqU2+DUyimcslT5SJpdygVY/clRDmX5sO29c=
 github.com/stolostron/go-log-utils v0.1.2/go.mod h1:8zrB8UJmp1rXhv3Ck9bBl5SpNfKk3SApeElbo96YRtQ=
 github.com/stolostron/go-template-utils/v7 v7.0.5-0.20250703205947-799a9899f399 h1:69MSkVio5Ie552UYGu1xsLAdHWJZy7YY+6N/MxrGsbk=
