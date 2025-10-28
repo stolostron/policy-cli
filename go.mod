@@ -4,7 +4,7 @@ go 1.24.0
 
 require (
 	github.com/spf13/cobra v1.8.1
-	github.com/stolostron/go-template-utils/v6 v6.5.1-0.20250703205949-59543053843e
+	github.com/stolostron/go-template-utils/v6 v6.5.1-0.20250929195407-dd2c1fa2b5c2
 	open-cluster-management.io/config-policy-controller v0.16.1-0.20250326145550-30811e4c1266
 )
 
@@ -26,7 +26,6 @@ require (
 	github.com/go-openapi/jsonreference v0.21.0 // indirect
 	github.com/go-openapi/swag v0.23.1 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
-	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/google/gnostic-models v0.6.9 // indirect
 	github.com/google/go-cmp v0.7.0 // indirect
@@ -72,21 +71,20 @@ require (
 	google.golang.org/protobuf v1.36.6 // indirect
 	gopkg.in/evanphx/json-patch.v4 v4.12.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
-	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/api v0.31.9 // indirect
+	k8s.io/api v0.32.9 // indirect
 	k8s.io/apiextensions-apiserver v0.31.9 // indirect
-	k8s.io/apimachinery v0.31.9 // indirect
-	k8s.io/client-go v0.31.9 // indirect
+	k8s.io/apimachinery v0.32.9 // indirect
+	k8s.io/client-go v0.32.9 // indirect
 	k8s.io/klog v1.0.0 // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
-	k8s.io/kube-openapi v0.0.0-20240521193020-835d969ad83a // indirect
-	k8s.io/utils v0.0.0-20240711033017-18e509b52bc8 // indirect
+	k8s.io/kube-openapi v0.0.0-20241105132330-32ad38e42d3f // indirect
+	k8s.io/utils v0.0.0-20241104100929-3ea5e8cea738 // indirect
 	open-cluster-management.io/governance-policy-propagator v0.15.0 // indirect
 	sigs.k8s.io/controller-runtime v0.19.7 // indirect
-	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
+	sigs.k8s.io/json v0.0.0-20241010143419-9aa6b5e7a4b3 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.3 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
 )
 
-replace open-cluster-management.io/config-policy-controller => github.com/stolostron/config-policy-controller v0.0.0-20250803030125-4f91ed039b48
+replace open-cluster-management.io/config-policy-controller => github.com/stolostron/config-policy-controller v0.0.0-20251017203832-a083078e6454
