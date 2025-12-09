@@ -3,9 +3,9 @@ module github.com/stolostron/policy-cli
 go 1.24.4
 
 require (
-	github.com/spf13/cobra v1.10.1
-	github.com/stolostron/go-template-utils/v7 v7.1.1-0.20251201221146-bbf987d7b5f4
-	open-cluster-management.io/config-policy-controller v0.17.1-0.20251126151646-3582f7078f7d
+	github.com/spf13/cobra v1.10.2
+	github.com/stolostron/go-template-utils/v7 v7.1.1-0.20251208143920-021d153d4144
+	open-cluster-management.io/config-policy-controller v0.17.1-0.20251208165011-5b6b4a2abfdd
 )
 
 require (
