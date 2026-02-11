@@ -22,8 +22,6 @@ clean:
 	-rm bin/*
 	-rm -r vendor/
 	-rm build/_output/*
-	-rm kubeconfig_$(CLUSTER_NAME)_e2e
-	kind delete cluster --name test-$(CLUSTER_NAME)
 
 ############################################################
 # build section
