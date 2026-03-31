@@ -4,8 +4,8 @@ go 1.25.7
 
 require (
 	github.com/spf13/cobra v1.10.2
-	github.com/stolostron/go-template-utils/v7 v7.2.1-0.20260323194730-13ca2ef1c15b
-	open-cluster-management.io/config-policy-controller v0.18.1-0.20260320173842-add49136c6f7
+	github.com/stolostron/go-template-utils/v7 v7.2.1-0.20260330132844-0db82b666da1
+	open-cluster-management.io/config-policy-controller v0.18.1-0.20260330141556-b474574d39a9
 )
 
 require (
@@ -49,7 +49,7 @@ require (
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
-	github.com/operator-framework/api v0.41.0 // indirect
+	github.com/operator-framework/api v0.42.0 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/prometheus/client_golang v1.23.2 // indirect
 	github.com/prometheus/client_model v0.6.2 // indirect
