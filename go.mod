@@ -4,8 +4,8 @@ go 1.25.7
 
 require (
 	github.com/spf13/cobra v1.10.2
-	github.com/stolostron/go-template-utils/v7 v7.2.1-0.20260330132844-0db82b666da1
-	open-cluster-management.io/config-policy-controller v0.18.1-0.20260330141556-b474574d39a9
+	github.com/stolostron/go-template-utils/v7 v7.2.1-0.20260403150411-ccb5b622b46b
+	open-cluster-management.io/config-policy-controller v0.18.1-0.20260403180829-a0beefcd2b07
 )
 
 require (
@@ -20,7 +20,7 @@ require (
 	github.com/emicklei/go-restful/v3 v3.13.0 // indirect
 	github.com/evanphx/json-patch/v5 v5.9.11 // indirect
 	github.com/fsnotify/fsnotify v1.9.0 // indirect
-	github.com/fxamacker/cbor/v2 v2.9.0 // indirect
+	github.com/fxamacker/cbor/v2 v2.9.1 // indirect
 	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/go-logr/zapr v1.3.0 // indirect
 	github.com/go-openapi/jsonpointer v0.22.5 // indirect
