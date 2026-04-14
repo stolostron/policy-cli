@@ -4,8 +4,8 @@ go 1.25.7
 
 require (
 	github.com/spf13/cobra v1.10.2
-	github.com/stolostron/go-template-utils/v7 v7.2.1-0.20260403150411-ccb5b622b46b
-	open-cluster-management.io/config-policy-controller v0.18.1-0.20260403180829-a0beefcd2b07
+	github.com/stolostron/go-template-utils/v7 v7.2.1-0.20260410105336-552c214a5839
+	open-cluster-management.io/config-policy-controller v0.18.1-0.20260410172833-e85843bcf537
 )
 
 require (
@@ -66,13 +66,13 @@ require (
 	go.uber.org/zap v1.27.1 // indirect
 	go.yaml.in/yaml/v2 v2.4.4 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
-	golang.org/x/crypto v0.49.0 // indirect
-	golang.org/x/net v0.52.0 // indirect
+	golang.org/x/crypto v0.50.0 // indirect
+	golang.org/x/net v0.53.0 // indirect
 	golang.org/x/oauth2 v0.36.0 // indirect
 	golang.org/x/sync v0.20.0 // indirect
-	golang.org/x/sys v0.42.0 // indirect
-	golang.org/x/term v0.41.0 // indirect
-	golang.org/x/text v0.35.0 // indirect
+	golang.org/x/sys v0.43.0 // indirect
+	golang.org/x/term v0.42.0 // indirect
+	golang.org/x/text v0.36.0 // indirect
 	golang.org/x/time v0.15.0 // indirect
 	gomodules.xyz/jsonpatch/v2 v2.5.0 // indirect
 	google.golang.org/protobuf v1.36.11 // indirect
