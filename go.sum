@@ -143,8 +143,8 @@ github.com/spf13/cobra v1.10.1/go.mod h1:7SmJGaTHFVBY0jW4NXGluQoLvhqFQM+6XSKD+P4
 github.com/spf13/pflag v1.0.9/go.mod h1:McXfInJRrz4CZXVZOBLb0bTZqETkiAhM9Iw0y3An2Bg=
 github.com/spf13/pflag v1.0.10 h1:4EBh2KAYBwaONj6b2Ye1GiHfwjqyROoF4RwYO+vPwFk=
 github.com/spf13/pflag v1.0.10/go.mod h1:McXfInJRrz4CZXVZOBLb0bTZqETkiAhM9Iw0y3An2Bg=
-github.com/stolostron/config-policy-controller v0.0.0-20260325143201-103c1e2e9f15 h1:pqajTEw3izeObgW/4hs1qx8nyhxgUMMrzVAd2IkF0nw=
-github.com/stolostron/config-policy-controller v0.0.0-20260325143201-103c1e2e9f15/go.mod h1:fOcnf2N3/inyXD8phPGTLd5UbsbiGBL6V3DhwcW4u6M=
+github.com/stolostron/config-policy-controller v0.0.0-20260409163746-9eb44fc16d63 h1:ZMUfOn9WgnWBkPeBrxhGBj0bfFS6U5RzApJxZICNwqw=
+github.com/stolostron/config-policy-controller v0.0.0-20260409163746-9eb44fc16d63/go.mod h1:xtD7Z/r3dYX48Qo0NGkg3rH3uFgujadQMmaCI/I4jm4=
 github.com/stolostron/go-log-utils v0.1.3 h1:AKcM2z9updcnfQT5Zp5n3t0K4FEV6yHa5mdz7CgJzzE=
 github.com/stolostron/go-log-utils v0.1.3/go.mod h1:P3KFqzZFTDSf365V7l8VSw6NfgalViC1/lPjJw0dt+M=
 github.com/stolostron/go-template-utils/v7 v7.1.1-0.20251210150340-b7a9b0e592f7 h1:m7XYxqKkM15XW8QYeUB7t2OdCLtDifd8ADAGitOC8C0=
@@ -200,8 +200,8 @@ golang.org/x/sys v0.0.0-20190215142949-d0b11bdaac8a/go.mod h1:STP8DvDyc/dI5b8T5h
 golang.org/x/sys v0.0.0-20190412213103-97732733099d/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
 golang.org/x/sys v0.0.0-20200930185726-fdedc70b468f/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
 golang.org/x/sys v0.0.0-20220715151400-c0bba94af5f8/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
-golang.org/x/sys v0.40.0 h1:DBZZqJ2Rkml6QMQsZywtnjnnGvHza6BTfYFWY9kjEWQ=
-golang.org/x/sys v0.40.0/go.mod h1:OgkHotnGiDImocRcuBABYBEXf8A9a87e/uXjp9XT3ks=
+golang.org/x/sys v0.42.0 h1:omrd2nAlyT5ESRdCLYdm3+fMfNFE/+Rf4bDIQImRJeo=
+golang.org/x/sys v0.42.0/go.mod h1:4GL1E5IUh+htKOUEOaiffhrAeqysfVGipDYzABqnCmw=
 golang.org/x/term v0.38.0 h1:PQ5pkm/rLO6HnxFR7N2lJHOZX6Kez5Y1gDSJla6jo7Q=
 golang.org/x/term v0.38.0/go.mod h1:bSEAKrOT1W+VSu9TSCMtoGEOUcKxOKgl3LE5QEF/xVg=
 golang.org/x/text v0.3.0/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=
