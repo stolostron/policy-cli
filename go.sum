@@ -130,8 +130,8 @@ github.com/spf13/cobra v1.8.1/go.mod h1:wHxEcudfqmLYa8iTfL+OuZPbBZkmvliBWKIezN3k
 github.com/spf13/pflag v1.0.5/go.mod h1:McXfInJRrz4CZXVZOBLb0bTZqETkiAhM9Iw0y3An2Bg=
 github.com/spf13/pflag v1.0.6 h1:jFzHGLGAlb3ruxLB8MhbI6A8+AQX/2eW4qeyNZXNp2o=
 github.com/spf13/pflag v1.0.6/go.mod h1:McXfInJRrz4CZXVZOBLb0bTZqETkiAhM9Iw0y3An2Bg=
-github.com/stolostron/config-policy-controller v0.0.0-20260325143442-78c09be721be h1:mMxFqh65FoSfAZxXAHi2HDXQfZUguvW3rosRkwTKS3M=
-github.com/stolostron/config-policy-controller v0.0.0-20260325143442-78c09be721be/go.mod h1:INZQaZaQ15VilsDiu2HNN9RYLKxISK6oYZMggwf6uZg=
+github.com/stolostron/config-policy-controller v0.0.0-20260416161915-c372a8630526 h1:1QWYrXro0fHiBrphZSp1SN+XP6dj76ht/cgR9rkiQ1I=
+github.com/stolostron/config-policy-controller v0.0.0-20260416161915-c372a8630526/go.mod h1:dYYZLv2zOxJz21VeRp5wRkcF7HlU7n9/3JQ31+fYY+0=
 github.com/stolostron/go-log-utils v0.1.2 h1:7l1aJWvBqU2+DUyimcslT5SJpdygVY/clRDmX5sO29c=
 github.com/stolostron/go-log-utils v0.1.2/go.mod h1:8zrB8UJmp1rXhv3Ck9bBl5SpNfKk3SApeElbo96YRtQ=
 github.com/stolostron/go-template-utils/v6 v6.5.1-0.20251210224114-2fd7c4e8b2e7 h1:IoAxVNgigNdNjvHNDzSmHF/BnhuJTNrif8jeuoNRm7I=
@@ -196,8 +196,8 @@ golang.org/x/sys v0.0.0-20220520151302-bc2c85ada10a/go.mod h1:oPkhp1MJrh7nUepCBc
 golang.org/x/sys v0.0.0-20220715151400-c0bba94af5f8/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/sys v0.0.0-20220722155257-8c9f86f7a55f/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/sys v0.2.0/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
-golang.org/x/sys v0.40.0 h1:DBZZqJ2Rkml6QMQsZywtnjnnGvHza6BTfYFWY9kjEWQ=
-golang.org/x/sys v0.40.0/go.mod h1:OgkHotnGiDImocRcuBABYBEXf8A9a87e/uXjp9XT3ks=
+golang.org/x/sys v0.42.0 h1:omrd2nAlyT5ESRdCLYdm3+fMfNFE/+Rf4bDIQImRJeo=
+golang.org/x/sys v0.42.0/go.mod h1:4GL1E5IUh+htKOUEOaiffhrAeqysfVGipDYzABqnCmw=
 golang.org/x/term v0.0.0-20201126162022-7de9c90e9dd1/go.mod h1:bj7SfCRtBDWHUb9snDiAeCFNEtKQo2Wmx5Cou7ajbmo=
 golang.org/x/term v0.0.0-20210927222741-03fcf44c2211/go.mod h1:jbD1KX2456YbFQfuXm/mYQcufACuNUgVhRMnK/tPxf8=
 golang.org/x/term v0.2.0/go.mod h1:TVmDHMZPmdnySmBfhjOoOdhjzdE1h4u1VwSiw2l1Nuc=
