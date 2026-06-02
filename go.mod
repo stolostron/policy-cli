@@ -5,7 +5,7 @@ go 1.25.7
 require (
 	github.com/spf13/cobra v1.10.2
 	github.com/stolostron/go-template-utils/v7 v7.3.1-0.20260520184439-16c7e071f38c
-	open-cluster-management.io/config-policy-controller v0.18.1-0.20260521221438-e242278a4a3e
+	open-cluster-management.io/config-policy-controller v0.18.1-0.20260526183855-a2ec0f97e98b
 )
 
 require (
@@ -70,7 +70,7 @@ require (
 	golang.org/x/net v0.54.0 // indirect
 	golang.org/x/oauth2 v0.36.0 // indirect
 	golang.org/x/sync v0.20.0 // indirect
-	golang.org/x/sys v0.44.0 // indirect
+	golang.org/x/sys v0.45.0 // indirect
 	golang.org/x/term v0.43.0 // indirect
 	golang.org/x/text v0.37.0 // indirect
 	golang.org/x/time v0.15.0 // indirect
