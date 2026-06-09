@@ -4,8 +4,8 @@ go 1.25.7
 
 require (
 	github.com/spf13/cobra v1.10.2
-	github.com/stolostron/go-template-utils/v7 v7.3.1-0.20260520184439-16c7e071f38c
-	open-cluster-management.io/config-policy-controller v0.18.1-0.20260526183855-a2ec0f97e98b
+	github.com/stolostron/go-template-utils/v7 v7.3.1-0.20260604141858-cab371385838
+	open-cluster-management.io/config-policy-controller v0.19.0
 )
 
 require (
@@ -24,7 +24,7 @@ require (
 	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/go-logr/zapr v1.3.0 // indirect
 	github.com/go-openapi/jsonpointer v0.23.1 // indirect
-	github.com/go-openapi/jsonreference v0.21.5 // indirect
+	github.com/go-openapi/jsonreference v0.21.6 // indirect
 	github.com/go-openapi/swag v0.26.0 // indirect
 	github.com/go-openapi/swag/cmdutils v0.26.0 // indirect
 	github.com/go-openapi/swag/conv v0.26.0 // indirect
@@ -53,7 +53,7 @@ require (
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/prometheus/client_golang v1.23.2 // indirect
 	github.com/prometheus/client_model v0.6.2 // indirect
-	github.com/prometheus/common v0.67.5 // indirect
+	github.com/prometheus/common v0.68.0 // indirect
 	github.com/prometheus/procfs v0.20.1 // indirect
 	github.com/shopspring/decimal v1.4.0 // indirect
 	github.com/sirupsen/logrus v1.9.4 // indirect
@@ -66,8 +66,8 @@ require (
 	go.uber.org/zap v1.28.0 // indirect
 	go.yaml.in/yaml/v2 v2.4.4 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
-	golang.org/x/crypto v0.51.0 // indirect
-	golang.org/x/net v0.54.0 // indirect
+	golang.org/x/crypto v0.52.0 // indirect
+	golang.org/x/net v0.55.0 // indirect
 	golang.org/x/oauth2 v0.36.0 // indirect
 	golang.org/x/sync v0.20.0 // indirect
 	golang.org/x/sys v0.45.0 // indirect
