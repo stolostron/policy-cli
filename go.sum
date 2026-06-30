@@ -146,12 +146,12 @@ github.com/spf13/cobra v1.10.2/go.mod h1:7C1pvHqHw5A4vrJfjNwvOdzYu0Gml16OCs2GRiT
 github.com/spf13/pflag v1.0.9/go.mod h1:McXfInJRrz4CZXVZOBLb0bTZqETkiAhM9Iw0y3An2Bg=
 github.com/spf13/pflag v1.0.10 h1:4EBh2KAYBwaONj6b2Ye1GiHfwjqyROoF4RwYO+vPwFk=
 github.com/spf13/pflag v1.0.10/go.mod h1:McXfInJRrz4CZXVZOBLb0bTZqETkiAhM9Iw0y3An2Bg=
-github.com/stolostron/config-policy-controller v0.0.0-20260528175247-9ec13707a1e9 h1:HQPZTk9LTiYHB9ypLphB1Msl8/qV5AtyUrSpjrXT38Y=
-github.com/stolostron/config-policy-controller v0.0.0-20260528175247-9ec13707a1e9/go.mod h1:UONzaPEE1H3DGXutKL3eRHcZs5GBSDufIn0IWZeaCqQ=
+github.com/stolostron/config-policy-controller v0.0.0-20260623192553-ccdbb0213a4f h1:62Rpy/JACw82AIBZdN3qNIZCvxrNcuQmfLLDZZgA1fU=
+github.com/stolostron/config-policy-controller v0.0.0-20260623192553-ccdbb0213a4f/go.mod h1:bGbRiPjhIdSROZAV2UZjTGnKzRwRZNXmEZX0/c3RpUg=
 github.com/stolostron/go-log-utils v0.1.4 h1:5O85eXobMc042u52/YI8o9pyV3MHnIzFrSmK9TLmG3Q=
 github.com/stolostron/go-log-utils v0.1.4/go.mod h1:T94Cw9060cvYMX+l1X1gcvC0MkEr6bippChcgqyEQV0=
-github.com/stolostron/go-template-utils/v7 v7.2.1-0.20260209132704-6e8cad566570 h1:BS8xCM5VYCxY9yZTmSoIdV15vXj4KjnuXAym3qcRQUQ=
-github.com/stolostron/go-template-utils/v7 v7.2.1-0.20260209132704-6e8cad566570/go.mod h1:GYemb07b87fahJ+9vEuXvJovUfF5Rfff0cazA5gAqFg=
+github.com/stolostron/go-template-utils/v7 v7.2.1-0.20260623191126-6d841d655eca h1:RReTea/E1CWDgIsJglbbgvD3NHQxlnU5rCFrb76ZG5k=
+github.com/stolostron/go-template-utils/v7 v7.2.1-0.20260623191126-6d841d655eca/go.mod h1:YHRUxZ47V2h07RSyT5zbauNQU69L+D/AAaWqhuYrv0c=
 github.com/stolostron/kubernetes-dependency-watches v0.10.2 h1:b8g3Wye6igeRrrSQwXGr4Ch4zTY4uouzHlDARw8/m7w=
 github.com/stolostron/kubernetes-dependency-watches v0.10.2/go.mod h1:pV1b/PwVNG4a5tzBcqxhUpMjjo5nY0gUb6ieu6sGH6o=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
