@@ -4,7 +4,7 @@ go 1.26.0
 
 require (
 	github.com/spf13/cobra v1.10.2
-	github.com/stolostron/go-template-utils/v7 v7.3.0
+	github.com/stolostron/go-template-utils/v7 v7.3.1-0.20260623191126-1e1e61f877b9
 	open-cluster-management.io/config-policy-controller v0.18.1-0.20260410172833-e85843bcf537
 )
 
@@ -95,4 +95,4 @@ require (
 	sigs.k8s.io/yaml v1.6.0 // indirect
 )
 
-replace open-cluster-management.io/config-policy-controller => github.com/stolostron/config-policy-controller v0.0.0-20260622193054-83679633abf8
+replace open-cluster-management.io/config-policy-controller => github.com/stolostron/config-policy-controller v0.0.0-20260623191127-98860d9a5183
