@@ -136,8 +136,8 @@ github.com/stolostron/config-policy-controller v0.0.0-20260528013502-149a969753e
 github.com/stolostron/config-policy-controller v0.0.0-20260528013502-149a969753e3/go.mod h1:BxQwIrMmXal9d7GFkJCuj09SEjNILBAnxBdqc0Koyt8=
 github.com/stolostron/go-log-utils v0.1.2 h1:7l1aJWvBqU2+DUyimcslT5SJpdygVY/clRDmX5sO29c=
 github.com/stolostron/go-log-utils v0.1.2/go.mod h1:8zrB8UJmp1rXhv3Ck9bBl5SpNfKk3SApeElbo96YRtQ=
-github.com/stolostron/go-template-utils/v7 v7.0.5-0.20251209220413-a1fda0a1f7fa h1:3Knh8HF14sewMgqaSTFD++ChGjIBAgdOWioKAhK7y/w=
-github.com/stolostron/go-template-utils/v7 v7.0.5-0.20251209220413-a1fda0a1f7fa/go.mod h1:FzrPeh5PewSDb7M3Mq/K/q5JGVLJe0wnu1Pebx6583w=
+github.com/stolostron/go-template-utils/v7 v7.0.5-0.20260624170922-5a90745d7542 h1:xR9WkaWQEpx7ug1Ub/9zYrf1yDCZpP93Ui+5eijTXC4=
+github.com/stolostron/go-template-utils/v7 v7.0.5-0.20260624170922-5a90745d7542/go.mod h1:u/JAqGa5VDPJxow1i65tVCrQCIHB+6RH2kvfFhsocdM=
 github.com/stolostron/kubernetes-dependency-watches v0.10.2 h1:b8g3Wye6igeRrrSQwXGr4Ch4zTY4uouzHlDARw8/m7w=
 github.com/stolostron/kubernetes-dependency-watches v0.10.2/go.mod h1:pV1b/PwVNG4a5tzBcqxhUpMjjo5nY0gUb6ieu6sGH6o=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
