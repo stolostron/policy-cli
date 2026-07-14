@@ -12,7 +12,8 @@ jobs:
     outputs:
       versionMatrix: ${{ steps.fetchVersions.outputs.versions }}
     steps:
-      - id: fetchVersions
+      - name: Fetch current versions
+        id: fetchVersions
         run: |
           versions=$(
             echo "main"
@@ -62,8 +63,8 @@ jobs:
           GH_TOKEN: ${{ secrets.WORKFLOW_TOKEN }}
         run: |
           # Setup user
-          git config user.name "acm-grc-security[bot]"
-          git config user.email "acm-grc-security[bot]@users.noreply.github.com"
+          git config user.name "grc-security[bot]"
+          git config user.email "grc-security[bot]@users.noreply.github.com"
 
           branch=gh-action-pkg-update-${{ matrix.version }}
 
