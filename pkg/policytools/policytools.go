@@ -8,7 +8,7 @@ import (
 	"github.com/stolostron/policy-cli/internal"
 )
 
-// policyCmd represents the base command when called without any subcommands
+// Cmd represents the base command when called without any subcommands.
 type Cmd struct{}
 
 func (a Cmd) GetCmd() *cobra.Command {
