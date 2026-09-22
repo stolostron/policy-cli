@@ -97,4 +97,4 @@ require (
 	sigs.k8s.io/yaml v1.6.0 // indirect
 )
 
-replace open-cluster-management.io/config-policy-controller => github.com/stolostron/config-policy-controller v0.0.0-20260814160911-5990c4c8445f
+replace open-cluster-management.io/config-policy-controller => github.com/stolostron/config-policy-controller v0.0.0-20260917150505-13757ecc667a
