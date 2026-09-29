@@ -212,8 +212,8 @@ k8s.io/kube-openapi v0.0.0-20260519202549-bbf5c5577288 h1:A7Lby6ekC6nv+6oO38huCM
 k8s.io/kube-openapi v0.0.0-20260519202549-bbf5c5577288/go.mod h1:V/QaCUYDa+0QpcHhVVc5l99Uz56wEMEXBSj9oCDkNDY=
 k8s.io/utils v0.0.0-20260210185600-b8788abfbbc2 h1:AZYQSJemyQB5eRxqcPky+/7EdBj0xi3g0ZcxxJ7vbWU=
 k8s.io/utils v0.0.0-20260210185600-b8788abfbbc2/go.mod h1:xDxuJ0whA3d0I4mf/C4ppKHxXynQ+fxnkmQH0vTHnuk=
-open-cluster-management.io/config-policy-controller v0.20.1-0.20260909142311-3fd055fe17dc h1:lGvAZsX9H9zXYzhGN7eRXLe/JFpzHTy7/mxzS21XDd0=
-open-cluster-management.io/config-policy-controller v0.20.1-0.20260909142311-3fd055fe17dc/go.mod h1:KDPu1Vt7gMRH2ALE4q/PU86SiV5osoT67cdU+HsUPyk=
+open-cluster-management.io/config-policy-controller v0.20.1-0.20260923212317-819fd0c45a6b h1:6mm2EpXsziQxXi/CAjj4OQYPtmGfRacdX0RItIQCr9E=
+open-cluster-management.io/config-policy-controller v0.20.1-0.20260923212317-819fd0c45a6b/go.mod h1:KDPu1Vt7gMRH2ALE4q/PU86SiV5osoT67cdU+HsUPyk=
 open-cluster-management.io/governance-policy-propagator v0.20.0 h1:Y8G23ZNaQw8Ayn4gHHr6/kQAmJ33agA9jRoADb7Scg4=
 open-cluster-management.io/governance-policy-propagator v0.20.0/go.mod h1:TjMiMEliMLKpvwOm5dwdxSgfcVOLTHqbFqVOpe9q8qg=
 sigs.k8s.io/controller-runtime v0.24.1 h1:miPEwrmirImAvgME1L9qebGHrOnGJoVmVdtOU9fRfo4=
